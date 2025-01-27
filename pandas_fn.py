@@ -34,3 +34,9 @@ dtype=float
 )
 
 print(heroes)
+
+print(heroes[0]) # 2000000
+print(heroes["Mazepa"]) # 2000000
+
+print(mountains_height[["Pip_Ivan", "Goverla", "Gutin_Tomnatik"]])
+print(heroes[["Mazepa", "Sirko", "Skoropadsky"]]) # 2000000
