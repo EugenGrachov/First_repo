@@ -125,3 +125,5 @@ df = pd.DataFrame({
 
 df.dropna(subset=['B'], inplace=True)
 print(df)
+
+
