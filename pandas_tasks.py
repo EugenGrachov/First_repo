@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 
 
@@ -26,6 +27,11 @@ print(data_df.describe())
 
 # DataFrame.describe(percentiles=None, include=None, exclude=None)
 data_df.info()
+#matplotlib.use('Qt5Agg')
+#print(matplotlib.get_backend())
 
 students_df['Вік'].plot(kind='hist', title='Вікова група студентів')
+
+
+plt.show()
 
